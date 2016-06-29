@@ -16,7 +16,9 @@
     "tween",
     "interpolation"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "performance-now": "^0.2.0"
+  },
   "scripts": {
     "test": "npm run test-unit && npm run test-correctness && npm run test-style",
     "test-unit": "nodeunit $(pwd)/test/unit/nodeunitheadless.js",

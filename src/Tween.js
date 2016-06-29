@@ -8,6 +8,13 @@
  */
 
 // Include a performance.now polyfill
+
+var window = {
+	performance: {
+		now: require("performance-now")
+	}
+};
+
 (function () {
 
 	if ('performance' in window === false) {

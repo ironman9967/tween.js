@@ -1,4 +1,8 @@
-# tween.js  
+# iron-tween
+
+!!! THIS IS FORK OF tween.js. I REFACTORED tween.js TO WORK IN NODE WITHOUT THE NEED FOR A BROWSER. I LEFT THEIR DOCUMENTATION IN THIS FILE FOR REFERENCE.
+
+IF tween.js EVER RELEASES A VERSION THAT WILL WORK OUTSIDE THE BROWSER, THIS PROJECT WILL BE DELETED! USE WITH CAUTION. !!!
 
 JavaScript tweening engine for easy animations, incorporating optimised Robert Penner's equations.
 
